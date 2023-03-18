@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family:'Anek Odia', sans-serif;
+    color: white;  
+  }
+#agradecimientos,a{
+    color: aqua;
+  }
+body {
+    background-color:darkslategray;
+  }
+.principal{
+    border-style: outset;
+  }
+h3{
+    border: 3px solid black;
+    padding: 3px;
+    color: aqua;
+  }
+b{
+    color:goldenrod;
+  } 
+button{
+    color:indigo;
+  }
+button:hover{
+    color:red;
+  }
+@media only screen and (max-width: 765px)
+  {
+    body {
+      background-color: slategray;
+    }
+    h1{font-style: italic;
+       color:navy;
+    }
+    h3{
+      background-color: crimson;
+    }
+  }
+  @media only screen and (min-width: 765px){
+    .principal{
+      column-count: 3;
+      background-color: dimgray;
+      border-style: outset;
+     }
+     button{
+      margin: 5px;
+     }      
+     h1{ 
+      font-style: italic;
+      color: darkgoldenrod;
+      margin: 0px;
+     }
+  }
